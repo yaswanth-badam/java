@@ -8,9 +8,8 @@ on:
     branches:
       - main
   
-pool:
-  vmImage: ubuntu-latest
-
+jobs:
+runs-on: self-hosted
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
